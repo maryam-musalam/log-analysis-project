@@ -1,0 +1,13 @@
+What are the most popular three articles of all time?
+" Candidate is jerk, alleges rival" - 338647 viwes.
+" Bears love berries, alleges bear" - 253801 viwes.
+" Bad things gone, say good people" - 170098 viwes.
+
+Who are the most popular article authors of all time?
+" Ursula La Multa" - 512805 viwes.
+" Rudolf von Treppenwitz" - 427781 viwes.
+" Anonymous Contributor" - 171762 viwes.
+" Markoff Chaney" - 85387 viwes.
+
+On which days did more than 1% of requests lead to errors?
+July 17, 2016 - 2.3% error.
