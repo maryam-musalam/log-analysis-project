@@ -15,9 +15,9 @@ def query_connect(sql):
 # function to find the most popular thre articles which get most view.
 def most_popular_three_articles():
     result = query_connect(
-          "SELECT articles.title , COUNT(*) AS views FROM log JOIN articles ON "
-          "log.path LIKE CONCAT('%', articles.slug, '%') GROUP BY path , "
-          "title ORDER BY views DESC  LIMIT 3 ")
+          "SELECT articles.title , COUNT(*) AS views FROM log " 
+          "JOIN articles ON log.path LIKE CONCAT('%', articles.slug, '%') "
+          "GROUP BY path , title ORDER BY views DESC  LIMIT 3 ")
     print "What are the most popular three articles of all time?"
     for row in result:
         print "\" " + row[0] + "\" - " + str(row[1]) + " viwes."
